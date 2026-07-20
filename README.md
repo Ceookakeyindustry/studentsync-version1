@@ -1,21 +1,33 @@
-# 🎓 StudentSync V1
+<div align="center">
+
+# 🎓 StudentSync Version 1
 
 A simple command-line student management system built with Python.
 
-StudentSync V1 allows users to manage student records through an interactive terminal interface. It supports adding, viewing, searching, editing, and deleting student information while automatically calculating grades and storing data in a JSON file.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![JSON](https://img.shields.io/badge/Storage-JSON-green?style=for-the-badge)
+![CLI](https://img.shields.io/badge/Interface-CLI-black?style=for-the-badge)
+
+</div>
+
+---
+
+## 📖 About
+
+StudentSync Version 1 is a command-line application for managing student records. It provides an interactive menu to perform common student management tasks while storing all information in a JSON file for permanent data persistence.
 
 ---
 
 ## ✨ Features
 
-- ➕ Add new students
-- 📋 View all student records
-- 🔍 Search students by roll number
-- ✏️ Edit existing student records
-- 🗑️ Delete student records
-- 📊 Automatic average calculation
-- 🏆 Automatic grade assignment
-- 💾 Persistent JSON data storage
+- ➕ Add Student
+- 📋 View All Students
+- 🔍 Search Student by Roll Number
+- ✏️ Edit Student Details
+- 🗑️ Delete Student
+- 📊 Automatic Average Calculation
+- 🏆 Automatic Grade Assignment
+- 💾 JSON Data Storage
 
 ---
 
@@ -29,8 +41,9 @@ StudentSync V1 allows users to manage student records through an interactive ter
 
 ## 📂 Project Structure
 
-```
-StudentSync-V1/
+```text
+StudentSync-Version1/
+│
 ├── main.py
 ├── students.json
 └── README.md
@@ -38,21 +51,21 @@ StudentSync-V1/
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Running the Project
 
-### Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/StudentSync-V1.git
-```
-
-### Open the project
+Clone the repository
 
 ```bash
-cd StudentSync-V1
+git clone https://github.com/Ceookakeyindustry/studentsync-version1.git
 ```
 
-### Run the program
+Open the project
+
+```bash
+cd studentsync-version1
+```
+
+Run the application
 
 ```bash
 python main.py
@@ -60,9 +73,9 @@ python main.py
 
 ---
 
-## 📸 Preview
+## 📷 Terminal Preview
 
-```
+```text
 =========================
  STUDENT GRADE MANAGER
 =========================
@@ -73,10 +86,29 @@ python main.py
 4. Edit Student
 5. Delete Student
 6. Exit
+
+Choose an option:
 ```
+
+---
+
+## 📌 Current Functionality
+
+- Student records are stored in a JSON file.
+- Data persists after closing the program.
+- Grades are calculated automatically based on the average of subject marks.
+- Simple menu-driven interface for easy navigation.
+
+---
+
+## 👨‍💻 Author
+
+**Harjinder Singh**
+
+GitHub: https://github.com/Ceookakeyindustry
 
 ---
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is released under the MIT License.
